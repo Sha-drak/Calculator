@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 5px;
+}
+body {
+  height: fit-content;
+  background-color: rgb(16, 23, 32);
+}
+.main {
+  border-radius: 5%;
+  background: linear-gradient(90deg, #ee6851, hsl(239, 97%, 46%));
+  width: 370px;
+  margin-left: 350px;
+  
+}
+#Results {
+  border-radius: 5%;
+  background-color: #22272e;
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end; /* Align items to the bottom */
+  color: white;
+  max-width: 350px;
+  overflow-wrap: break-word;
+  position: relative;
+  text-align: left;
+  overflow: auto;
+}
+.output_area h3 {
+  background-color: #22272e;
+  color: white;
+  margin-top: -160px;
+  position: absolute;
+  border-radius: 15%;
+}
+/*#Results:hover {
+  background: linear-gradient(180deg, hsl(66, 81%, 65%), #22272e);
+  color: black;
+}*/
+.keypad_area {
+  margin-top: -310px;
+  height: fit-content;
+  width: fit-content;
+}
+#operations .keypad_area button {
+  margin-left: 0;
+  margin-top: 10px;
+  height: 80px;
+  width: 85px;
+  background-color: black;
+  border-radius: 25px;
+  color: red;
+  border: none;
+  font-weight: 20px;
+  font-size: larger;
+  
+}
+#operations .keypad_area button:hover {
+  border-radius: 25%;
+  border: 2px solid wheat;
+}
+#operations button {
+  height: 70px;
+  width: 70px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(51, 253, 1);
+  color: button;
+  margin-top: 15px;
+  /*box-shadow: 0 0 10px rgba(253, 9, , 0.7);*/
+}
+#operations #time {
+  height: 50px;
+  margin-top: 30px;
+  width: 70px;
+  margin: 6px;
+}
+#operations button:hover {
+  border-radius: 25%;
+  border: 2px solid yellow;
+}
+#column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 263px;
+}
+#operations #equal {
+  height: 120px;
+}
+#operations #equal:hover {
+  border-radius: 15px;
+}
