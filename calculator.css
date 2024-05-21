@@ -3,14 +3,14 @@
   padding: 5px;
 }
 body {
-  height: fit-content;
+  height: 100dvh;
   background-color: rgb(16, 23, 32);
 }
 .main {
   border-radius: 5%;
   background: linear-gradient(90deg, #ee6851, hsl(239, 97%, 46%));
   width: 370px;
-  margin-left: 350px;
+  margin-left: 5px;
   
 }
 #Results {
